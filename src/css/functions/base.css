@@ -1,0 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk&display=swap');
+
+html {
+  height: 100vh;
+  height: 100svh;
+  overflow: hidden;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  height: 100svh;
+font-family: 'Schibsted Grotesk', sans-serif;
+
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+p {
+  width: fit-content;
+  position: absolute;
+  bottom: 10rem;
+  left: 2rem;
+  font-size: 8vw;
+  line-height: 1;
+  color: #e1e1e1;
+}
+
+@media (max-width:768px) {
+  p {
+    bottom: 100px;
+    left: 14px;
+    font-size: 14vw;
+  }  
+}
