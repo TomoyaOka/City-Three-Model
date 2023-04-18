@@ -192,7 +192,7 @@ class App {
 
     });
     
-    console.log(this.group)
+    // console.log(this.group)
     this.group.forEach(obj=>{
       obj.position.y = -8.5;
       obj.rotation.x = 0.25;
